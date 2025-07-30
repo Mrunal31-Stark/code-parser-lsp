@@ -1,0 +1,16 @@
+tree-sitter-languages
+tree-sitter
+pytest
+uuid
+typing-extensions
+
+Optional: If you're running on Python 3.8 or below, you may need typing-extensions explicitly; for Python 3.9+, it's built-in.
+
+If you want to be extra precise (e.g., for production or Docker setup), you can pin versions like this:
+
+tree-sitter-languages==1.8.0
+tree-sitter==0.20.1
+pytest==7.4.0
+typing-extensions==4.9.0
+
+uuid is part of the Python standard library, so no need to install it explicitly unless you're using a package that wraps it.
