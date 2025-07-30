@@ -13,20 +13,8 @@ Clean modular structure
 Testable via pytest
 
 📁 Folder Structure
-bash
-Copy
-Edit
-task/
-├── examples/
-│   └── sample.py              # Sample file to test parsing
-├── src/
-│   ├── interfaces.py          # Language Enum
-│   └── services/
-│       └── code_parser_service.py   # Main parsing logic
-├── tests/
-│   └── test_parser.py         # Script to test the parser
-├── README.md                  # Project documentation
-└── requirements.txt           # Required dependencies
+<img width="575" height="292" alt="image" src="https://github.com/user-attachments/assets/cac6cf29-f0be-439a-9ec5-aa781f8bdb7f" />
+
 🛠️ Setup Instructions
 Follow these steps to run this project on your local machine for the first time.
 1️⃣ Clone the Repository
